@@ -6,5 +6,5 @@ import random
 
 st.write('Hi!')
 
-train = pd.read_csv('diabetes_binary_5050split_health_indicators_BRFSS2015.csv')
-train.head(10)
+df = pd.read_csv(r'https://raw.githubusercontent.com/danisnurman/psbnd1/main/diabetes_binary_5050split_health_indicators_BRFSS2015.csv')
+df.head(10)
